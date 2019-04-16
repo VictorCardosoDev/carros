@@ -1,0 +1,89 @@
+.cor_de_fundo{
+	background-color: #000000;
+}
+.cor_de_texto_branca{
+	color: #ffffff;
+}
+.cor_do_texto_vermelha{
+	color: #ff0000;
+}
+.cor_de_texto_amarela{
+	color: #ffff00;
+}
+.cor_de_texto_azul{
+	color: #00ffff;
+}
+.titulo{
+	color: #00ff00;
+}
+.quadrado{
+	position: absolute;
+	left: px;
+	top: px;
+	width: 150px;
+	height: 100px;
+	background-color: #000000;
+}	
+.quadrado2{
+	position: absolute;
+	top: px;
+	left: 460px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado3{
+	position: absolute;
+	top: px;
+	left: 910px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado4{
+	position: absolute;
+	top: 430px;
+	left: px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado5{
+	position: absolute;
+	top: 430px;
+	left: 460px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado6{
+	position: absolute;
+	top: 430px;
+	left: 910px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado7{
+	position: absolute;
+	top: 770px;
+	left: px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado8{
+	position: absolute;
+	top: 770px;
+	left: 460px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado9{
+	position: absolute;
+	top: 770px;
+	left: 910px;
+	width: 150px;
+	height: 100px;
+}
+.quadrado10{
+	position: absolute;
+	top: px;
+	left: 840px;
+	width: 150px;
+	height: 100px;
+}
