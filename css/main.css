@@ -23,7 +23,7 @@
 		background-color: black;
 		color: white;
 		padding: 10px;
-		font: normal bold 1.5em var(--principal);
+		font: normal bold 1.3em var(--principal);
 		text-shadow: 2px 2px 2px black;
 		box-shadow: 0px 0px 5px white;
 		margin-bottom: 3px;
@@ -34,17 +34,29 @@
 		max-width: 950px;
 		margin: auto;
 		text-align: center;
-
+	}
+	
+	img {
+		max-width: 350px;
+		height: 200px;
 	}
 
-	div {
+	#ftcarros a {
 		display: inline-block;
 		margin: 10px 20px;
+		text-decoration: none;
+		color: red;
 	}
 
-	img {
-		width: 430px;
-		height: 250px;
+	#ftcarros a:hover {
+		color: white;
+		transition: 0.25s;
+	}
+
+	#ftcarros img:hover {
+		width: 350px;
+		height: 205px;
+		transition: 0.5s;
 	}
 
 	figcaption {
@@ -54,6 +66,8 @@
 	p {
 		padding: 10px;
 		font: normal bold 18px var(--principal);
+		text-align: justify;
+		text-indent: 40px;
 	}
 
 	footer {
@@ -70,19 +84,64 @@
 	footer a:hover {
 		color: red;	
 	}
+
+	footer p {
+		text-align: center;
+	}
+
+	#infocarros {
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	#infocarros h2 {
+		background-color: red;
+		padding: 10px;
+		margin: 25px auto;
+	}
 }
 
 @media screen and (orientation: portrait) {
+	::-webkit-scrollbar {
+		width: 0px;
+		height: 0px;
+	}
+
 	header {
 		font: normal bold 0.7em var(--principal);
 	}
 
 	main {
-		width: 98vw;
+		width: 94.5vw;
 	}
 
 	div {
 		display: block;
+	}
+
+	img {
+		width: 310px;
+		height: 170px;
+	}
+	
+	#ftcarros img:hover {
+		width: 315px;
+		height: 180px;
+	}
+	
+}
+
+@media screen and (orientation: landscape) {
+	header {
+		font: normal bold 1.3em var(--principal);
+	}
+
+	main {
+		width: 96vw;
+	}
+
+	div {
+		display: inline-block;
 	}
 
 	img {
