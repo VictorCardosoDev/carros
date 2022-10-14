@@ -1,19 +1,92 @@
 @charset "UTF-8";
 
+:root {
+	--principal:  Arial, Helvetica, sans-serif;
+}
+
 @media all {
 	* {
 		margin: 0px;
 		padding: 0px;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: var(--principal);
 		background-attachment: fixed;
 	}
 	
-	html, body {
+	body {
 		background:black ;
 		color: white;
+		margin: auto;
 	}
+
+	header {
+		text-align: center;
+		background-color: black;
+		color: white;
+		padding: 10px;
+		font: normal bold 1.5em var(--principal);
+		text-shadow: 2px 2px 2px black;
+		box-shadow: 0px 0px 5px white;
+		margin-bottom: 3px;
+}
 	
-	html {
-		
-	}	
+	main {
+		background-color: black;
+		max-width: 950px;
+		margin: auto;
+		text-align: center;
+
+	}
+
+	div {
+		display: inline-block;
+		margin: 10px 20px;
+	}
+
+	img {
+		width: 430px;
+		height: 250px;
+	}
+
+	figcaption {
+		margin-top: 10px;
+	}
+
+	p {
+		padding: 10px;
+		font: normal bold 18px var(--principal);
+	}
+
+	footer {
+		text-align: center;
+		background-color: white;
+		color: black;
+	}
+
+	footer a {
+		text-decoration: none;
+		color: rgb(17, 0, 250);
+	}
+
+	footer a:hover {
+		color: red;	
+	}
+}
+
+@media screen and (orientation: portrait) {
+	header {
+		font: normal bold 0.7em var(--principal);
+	}
+
+	main {
+		width: 98vw;
+	}
+
+	div {
+		display: block;
+	}
+
+	img {
+		width: 350px;
+		height: 200px;
+	}
 }
