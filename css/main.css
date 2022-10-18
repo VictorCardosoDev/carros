@@ -33,6 +33,7 @@
 	main {
 		background-color: black;
 		max-width: 950px;
+		min-width: 250px;
 		margin: auto;
 		text-align: center;
 	}
@@ -111,6 +112,10 @@
 	#infocarros div {
 		max-width: 900px;
 	}
+
+	.picture img {
+		display: block;
+	}
 }
 
 @media screen and (orientation: portrait) {
@@ -136,6 +141,10 @@
 		width: 315px;
 		height: 180px;
 	}
+
+	picture {
+		text-align: center;
+	}
 	
 }
 
@@ -150,10 +159,5 @@
 
 	div {
 		display: inline-block;
-	}
-
-	img {
-		width: 350px;
-		height: 200px;
 	}
 }
