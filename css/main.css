@@ -112,10 +112,6 @@
 	#infocarros div {
 		max-width: 900px;
 	}
-
-	.picture img {
-		display: block;
-	}
 }
 
 @media screen and (orientation: portrait) {
