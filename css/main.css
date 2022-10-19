@@ -43,6 +43,8 @@
 		height: 200px;
 		background-attachment: fixed;
 		background-size: contain;
+		border: 2px solid red;
+		border-radius: 15px;
 	}
 
 	#ftcarros a {
@@ -60,6 +62,7 @@
 	#ftcarros img:hover {
 		width: 360px;
 		height: 205px;
+		border: 2px solid white;
 		transition: 0.5s;
 	}
 
@@ -135,6 +138,7 @@
 	::-webkit-scrollbar {
 		width: 0px;
 		height: 0px;
+		background-color: red;
 	}
 
 	header {
