@@ -6,7 +6,6 @@
 
 @media all {
 	
-	
 	* {
 		margin: 0px;
 		padding: 0px;
@@ -38,7 +37,7 @@
 		text-shadow: 2px 2px 2px black;
 		box-shadow: 0px 0px 5px white;
 		margin-bottom: 3px;
-	}
+}
 	
 	main {
 		background-color: black;
@@ -78,16 +77,12 @@
 
 	figcaption {
 		margin-top: 10px;
-	}
-
-	figcaption p {
-		text-indent: 0px;
-		text-align: center;
+		font-weight: bold;
 	}
 	
 	p {
 		padding: 10px;
-		font: normal bold 18px var(--principal);
+		font: normal bold 19px var(--principal);
 		text-align: justify;
 		text-indent: 40px;
 	}
@@ -148,6 +143,7 @@
 	::-webkit-scrollbar {
 		width: 0px;
 		height: 0px;
+		background-color: red;
 	}
 
 	header {
