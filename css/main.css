@@ -79,6 +79,23 @@
 		text-indent: 40px;
 	}
 
+	strong {
+		color: yellow;
+	}
+
+	a {
+		color: #00ABC2;
+	}
+
+	a:hover {
+		color: #00D8F5;
+	}
+
+	a h2 {
+		color: white;
+	}
+	
+
 	footer {
 		text-align: center;
 		background-color: white;
