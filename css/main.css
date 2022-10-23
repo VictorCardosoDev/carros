@@ -56,6 +56,13 @@
 		border-radius: 15px;
 	}
 
+	#ftcarros img:hover {
+		width: 360px;
+		height: 205px;
+		border: 2px solid white;
+		transition: 0.5s;
+	}
+
 	#ftcarros a {
 		display: inline-block;
 		margin: 10px 20px;
@@ -66,13 +73,6 @@
 	#ftcarros a:hover {
 		color: white;
 		transition: 0.25s;
-	}
-
-	#ftcarros img:hover {
-		width: 360px;
-		height: 205px;
-		border: 2px solid white;
-		transition: 0.5s;
 	}
 
 	figcaption {
@@ -128,15 +128,16 @@
 		padding: 10px;
 	}
 
+	#infocarros div {
+		max-width: 900px;
+	}
+
 	#infocarros h2 {
 		background-color: red;
 		padding: 10px;
 		margin: 25px auto;
 	}
 
-	#infocarros div {
-		max-width: 900px;
-	}
 }
 
 @media screen and (orientation: portrait) {
