@@ -79,7 +79,22 @@
 		margin-top: 10px;
 		font-weight: bold;
 	}
-	
+
+	#infocarros {
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	#infocarros div {
+		max-width: 900px;
+	}
+
+	#infocarros h2 {
+		background-color: red;
+		padding: 10px;
+		margin: 25px auto;
+	}
+
 	p {
 		padding: 10px;
 		font: normal bold 19px var(--principal);
@@ -121,21 +136,6 @@
 
 	footer p {
 		text-align: center;
-	}
-
-	#infocarros {
-		margin-top: 20px;
-		padding: 10px;
-	}
-
-	#infocarros div {
-		max-width: 900px;
-	}
-
-	#infocarros h2 {
-		background-color: red;
-		padding: 10px;
-		margin: 25px auto;
 	}
 
 }
